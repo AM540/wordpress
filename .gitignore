@@ -4,3 +4,4 @@ nbproject/
 wp-content/
 wp-config.php
 *.bat
+!/wp-content/themes/mythemes/*
