@@ -4296,7 +4296,7 @@ a:focus{outline:none;}
     display: inline-block;
 }
 .index-content ul{
-    display: inline-block;
+    display: inline-grid;
     padding: 18px 0px;
     width: 32%;
     border-radius: 8px;
