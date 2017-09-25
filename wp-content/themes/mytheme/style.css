@@ -4280,3 +4280,52 @@ object {
 		padding: 0;
 	}
 }
+
+/**********************************************************************************/
+a:focus{outline:none;}
+.index-header{
+    margin-bottom: 2em;
+}
+.index-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.625em;
+    margin-bottom: 0px;
+}
+.index-content ul{
+    display: inline-block;
+}
+.index-content ul{
+    display: inline-block;
+    padding: 18px 0px;
+    width: 32%;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.index-content ul:first-child{
+    background-color: #FF775D;
+}
+.index-content ul:nth-child(2){
+    background-color: #FAB75E;
+}
+.index-content ul:nth-child(3){
+    background-color: #B2E773;
+}
+.index-content ul:nth-child(4){
+    background-color: #73E6A1;
+}
+.index-content ul:nth-child(5){
+    background-color: #50A7F7;
+}
+.index-content ul:nth-child(6){
+    background-color: #C97EF5;
+}
+.index-content a{
+    color: white;
+    width: 100%;
+    display: inline-block;
+}
