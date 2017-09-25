@@ -4,4 +4,4 @@ nbproject/
 wp-config.php
 *config.*
 *.bat
-
+wp-content/uploads
