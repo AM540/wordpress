@@ -36,7 +36,7 @@ global $twentyseventeencounter;
 
 			</header><!-- .entry-header -->
 
-			<div class="entry-content">
+			<div class="index-content">
 				<?php
 					/* translators: %s: Name of current post */
 					the_content( sprintf(
