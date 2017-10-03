@@ -3244,7 +3244,7 @@ object {
 
 	.panel-content .wrap {
 		padding-bottom: 2em;
-		padding-top: 3.5em;
+		padding-top: 1.5em;
 	}
 
 	.page-one-column .panel-content .wrap {
@@ -4292,10 +4292,13 @@ a:focus{outline:none;}
     font-size: 1.625em;
     margin-bottom: 0px;
 }
-.index-content ul{
+.tool-mod{
+    font-size: 0;
+}
+.tool-mod ul{
     display: inline-block;
 }
-.index-content ul{
+.tool-mod ul{
     display: inline-grid;
     padding: 18px 0px;
     width: 32%;
@@ -4306,25 +4309,27 @@ a:focus{outline:none;}
     font-weight: bold;
     margin-bottom: 8px;
 }
-.index-content ul:first-child{
+.tool-mod ul:first-child{
     background-color: #FF775D;
 }
-.index-content ul:nth-child(2){
+.tool-mod ul:nth-child(2){
     background-color: #FAB75E;
+    margin: 0 2%;
 }
-.index-content ul:nth-child(3){
+.tool-mod ul:nth-child(3){
     background-color: #B2E773;
 }
-.index-content ul:nth-child(4){
+.tool-mod ul:nth-child(4){
     background-color: #73E6A1;
 }
-.index-content ul:nth-child(5){
+.tool-mod ul:nth-child(5){
     background-color: #50A7F7;
+    margin: 0 2%;
 }
-.index-content ul:nth-child(6){
+.tool-mod ul:nth-child(6){
     background-color: #C97EF5;
 }
-.index-content a{
+.tool-mod a{
     color: white;
     width: 100%;
     display: inline-block;

@@ -18,6 +18,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+<link id="favicon" href="./assets/pic/lemon.png" rel="shortcut icon" type="image/x-icon" />
 
 <?php wp_head(); ?>
 </head>
