@@ -4284,12 +4284,18 @@ object {
 /**********************************************************************************/
 a:focus{outline:none;}
 .index-header{
-    margin-bottom: 2em;
+    margin-bottom: 18px;
+    height: 46px;
+    border-bottom: 1px solid;
+    border-image: -webkit-linear-gradient(
+        left, #eee, #aaa, #000, 
+        #000, #aaa,#eee) 1 1;
+
 }
 .index-title{
     text-align: center;
     font-weight: bold;
-    font-size: 1.625em;
+    font-size: 24px;
     margin-bottom: 0px;
 }
 .tool-mod{
