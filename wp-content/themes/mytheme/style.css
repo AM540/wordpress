@@ -4344,33 +4344,34 @@ a:focus{outline:none;}
     font-size: 0px;
 }
 .trade-mod ul{
-    width: 22%;
+    width: 25%;
     display: inline-flex;
-    margin: 0 1.5%;
     max-height: 350px;
+    padding: 0px 5px;
 }
 .trade-mod div{
     background-size: 100% 100%;
     min-height: 250px;
     width: 100%;
+    background-size: inherit;
 }
-.trade-mod ul:first-child{
+.trade-mod ul:first-child div{
     background: url(./assets/pic/bg-trade1.PNG) no-repeat;
     background-size: 100% 100%;
 }
-.trade-mod ul:nth-child(2){
+.trade-mod ul:nth-child(2) div{
     background: url(./assets/pic/bg-trade2.PNG) no-repeat;
     background-size: 100% 100%;
 }
-.trade-mod ul:nth-child(3){
+.trade-mod ul:nth-child(3) div{
     background: url(./assets/pic/bg-trade3.PNG) no-repeat;
     background-size: 100% 100%;
 }
-.trade-mod ul:nth-child(4){
+.trade-mod ul:nth-child(4) div{
     background: url(./assets/pic/bg-trade4.PNG) no-repeat;
     background-size: 100% 100%;
 }
-.trade-mod ul:hover{
+.trade-mod div:hover{
     -moz-box-shadow: 0px 5px 20px 5px rgb(255, 255, 255) inset;
     -webkit-box-shadow: 0px 5px 20px 5px rgb(255, 255, 255) inset;
     box-shadow: 0px 5px 20px 5px rgb(255, 255, 255) inset;
