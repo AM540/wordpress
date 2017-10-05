@@ -17,13 +17,15 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" >
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link id="favicon" href="./wp-content/themes/mytheme/assets/pic/lemon.ico" rel="shortcut icon" type="image/x-icon" />
 
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> oncontextmenu="return false" onselectstart="return false">
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
