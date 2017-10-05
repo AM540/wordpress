@@ -4413,10 +4413,17 @@ a:focus{outline:none;}
     width: 100%;
     height: 100%;
 }
+.ico span{
+    top: -20px;
+    position: relative;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #bbb;
+}
 .ico{
-    width: 40px;
-    height: 40px;
-    margin: 30px 0px 0px;
+    width: 48px;
+    height: 48px;
+    margin: 40px 0px 40px;
 }
 .ico:hover {
     transform:scale(1.6);    
@@ -4425,6 +4432,22 @@ a:focus{outline:none;}
     -o-transform:scale(1.6);    
     -ms-transform:scale(1.6);
     transition-delay: 0.2s;
+}
+.ico:hover span{
+    color: black;
+    background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 3s linear infinite;
+}
+@keyframes masked-animation {
+    0% {
+        background-position: 0  0;
+    }
+    100% {
+        background-position: -100%  0;
+    }
 }
 .team{
     background: url("./assets/pic/team.png");   
@@ -4448,11 +4471,9 @@ a:focus{outline:none;}
 }
 .right-page{
     position: absolute;
-    width: 100%;
+    width: 56%;
     height: 380px;
-    font-size: 20px;
-    line-height: 20px;
-    margin: 5px 20px 0;    
+    margin: 5px 20px 0;   
 }
 .hide-anim{
     transform: translateX(360%);
@@ -4464,9 +4485,6 @@ a:focus{outline:none;}
     -moz-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
     -o-transition: all .5s cubic-bezier(.25, 1, .5, 1.25);
 }
-.right-page section{
-    
-}
 #t1:target #p1,
 #t2:target #p2,
 #t3:target #p3,
@@ -4476,7 +4494,7 @@ a:focus{outline:none;}
     -webkit-transform: translateX(0) !important;
     -moz-transform: translateX(0) !important;
     -o-transform: translateX(0) !important;
-    transition-delay: 1s;
+    transition-delay: 0.3s;
 }
 #t1:target #p0,
 #t2:target #p0,
@@ -4484,4 +4502,20 @@ a:focus{outline:none;}
 #t4:target #p0,
 #t5:target #p0{
     color: white;
+    display: none;
+}
+.content-title{
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 27px;
+    display: block;
+    text-align: center;
+}
+.content-desc{
+    font-size: 20px;
+    line-height: 20px;
+}
+.small-desc{
+    font-size: 14px; 
+    display: block;
 }
